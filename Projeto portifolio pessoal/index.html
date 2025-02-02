@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Style/style.css">
     <title>Fernando Lopes</title>
 </head>
 <body>
-    <header></header>
+
+    <header class="cabecalho">
+
+        <nav class="cabecalho__menu">
+
+            <a class="cabecalho__menu__link" href="/index.html">Home</a>
+            <a class="cabecalho__menu__link" href="">Sobre mim</a>
+
+        </nav>
+
+    </header>
+
     <main class="apresentacao">
 
         <section class="apresentacao__conteudo">
@@ -18,17 +29,33 @@
             Convido você a conferir meu trabalho no GitHub e me acompanhar no LinkedIn! Estou disponível para colaborar como voluntário em projetos de desenvolvimento web, seja para ONGs, iniciativas sociais ou qualquer projeto que precise de suporte na criação de sites e aplicações. Se você tem uma empresa e precisa de um site, me chame no LinkedIn!😊🚀</p>
             
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/fernando-lopes-5ab6902b7/" target="_blank">Linkedin</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes sociais</h2>
 
-                <a class="apresentacao__links__link" href="https://github.com/Fernando-Lopes-DEV" target="_blank">GitHub</a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/fernando-lopes-5ab6902b7/" target="_blank">
+                    <img src="/assets/linkedin.png" alt="icone do linkedin">
+                    Linkedin
+                </a>
+
+                <a class="apresentacao__links__link" href="https://github.com/Fernando-Lopes-DEV" target="_blank">
+                    <img src="/assets/github.png" alt="icone do github">
+                    GitHub
+                </a>
+
+                <a class="apresentacao__links__link" href="https://www.instagram.com/fernando_lopes1/">
+                    <img src="/assets/instagram.png" alt="icone do instagram">
+                    Instagram
+                </a>
             </div>
 
         </section>
 
-        <img src="/Imgs/Logo.png" alt="Minha foto em preto branco - Homem, pardo, barba rala, cabelo preto grande">
+        <img src="/assets/Logo.png" alt="Minha foto em preto branco - Homem, pardo, barba rala, cabelo preto grande">
        
 
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Fernando Lopes</p>
+        <!--<img class="imagem__rodape" src="/assets/Logo - Alura - Oracle.png" alt="Logo da alura mais logo da oracle">-->
+    </footer>
 </body>
 </html>
