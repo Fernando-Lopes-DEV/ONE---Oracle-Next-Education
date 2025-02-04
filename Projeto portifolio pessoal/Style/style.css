@@ -66,6 +66,11 @@ body{
     font-family: var(--fonte-secundaria);
 }
 
+.apresentacao__conteudo__texto, a, li {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
 .apresentacao__links{
     display: flex;
     flex-direction: column;
