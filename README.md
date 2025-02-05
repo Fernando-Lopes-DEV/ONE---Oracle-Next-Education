@@ -13,7 +13,8 @@ Este repositório faz parte do programa **Oracle Next Education (ONE)** e foi cr
 Aqui estão listados os projetos que serão adicionados ao longo do programa:
 
 1. 🚧 [Projeto do numero secreto](https://github.com/Fernando-Lopes-DEV/One-Oracle---Alura---Numero-Secreto)
-2. 🚀 [Portfólio ](https://portifolio-beta-five-86.vercel.app/)
+2. 🚀 [Portfólio ](https://portifolio-blond-sigma.vercel.app/)
+3. 🕺 [Projeto amigo secreto](https://github.com/Fernando-Lopes-DEV/ONE---Oracle-Next-Education/tree/main/Challenge%20amigo%20secreto)
 
 
 ## 🛠️ Tecnologias Utilizadas
