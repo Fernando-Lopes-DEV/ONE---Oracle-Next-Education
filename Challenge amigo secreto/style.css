@@ -88,8 +88,10 @@ body {
 }
 
 .button-container {
-    width: 300px;
+    width: 350px;
     justify-content: center;
+    display: flex;
+    gap: 40%;
 }
 
 /* Estilos de entrada de texto */
@@ -147,7 +149,7 @@ ul {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 10px 40px;
+    padding: 15px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
