@@ -38,6 +38,11 @@ body{
     color: var(--cor-terciaria);
 }
 
+.cabecalho__menu__link:hover{
+    border-bottom: solid 5px var(--cor-terciaria);
+    border-radius: 30%;
+}
+
 .apresentacao{
     padding: 6% 15%;
     display: flex;
@@ -120,6 +125,7 @@ body{
     text-align: center;
 }
 
+
 @media(max-width: 1200px) {
 
     .cabecalho {
@@ -140,4 +146,5 @@ body{
     }
 
 }
+
 
