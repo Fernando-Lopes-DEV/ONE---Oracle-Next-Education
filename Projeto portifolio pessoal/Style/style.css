@@ -116,14 +116,20 @@ body{
     width: 50%;
 }
 
+.apresentacao__imagem {
+    border-radius: 10%;
+}
+
+
 .rodape{
     padding: 40px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    font-family: var(--fonte-secundaria);
-    font-weight: 400px;
+    font-family: var(--fonte-principal);
+    font-weight: 600px;
     text-align: center;
 }
+
 
 
 @media(max-width: 1200px) {
